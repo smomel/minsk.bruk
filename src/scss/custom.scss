@@ -1,0 +1,34 @@
+@import 'variables';
+
+*{margin:0;padding:0;box-sizing:border-box;background-position:center;background-repeat:no-repeat}
+:after,:before{content:"";display:block;width:100%;height:0;clear:both}
+
+body {
+    font-family: $fontfamily2;
+}
+
+.container {
+    width: $viewport;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    outline: 0 !important;
+
+    &:hover {
+        transition: all $animationDelay;
+    }
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+main {
+    padding-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $titleFont;
+}

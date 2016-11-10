@@ -1,0 +1,117 @@
+header {
+  height: 105px;
+  line-height: 105px; }
+  header a {
+    text-decoration: none;
+    color: #fff;
+    display: block; }
+  header .logo {
+    float: left;
+    width: 35%;
+    background-color: #8dc63f;
+    text-align: right;
+    padding-right: 80px;
+    color: #fff; }
+    header .logo .logo-wrap {
+      display: inline-table;
+      position: relative;
+      z-index: 10; }
+      header .logo .logo-wrap .first-line {
+        line-height: normal;
+        font-size: 2.8rem;
+        font-weight: 400; }
+        header .logo .logo-wrap .first-line .small {
+          display: inline-block;
+          font-size: 80%; }
+      header .logo .logo-wrap .second-line {
+        line-height: normal;
+        font-weight: 300;
+        text-align: left;
+        position: relative;
+        z-index: 11;
+        top: -13px;
+        padding-left: 4px; }
+  header .navbar {
+    float: left;
+    width: 65%;
+    background-color: #2d332b;
+    text-align: center; }
+    header .navbar .menu {
+      list-style: none; }
+      header .navbar .menu li {
+        display: inline-block;
+        margin: 0 20px; }
+        header .navbar .menu li.active a {
+          color: #8dc63f; }
+        header .navbar .menu li a {
+          padding: 0 5px; }
+          header .navbar .menu li a:hover, header .navbar .menu li a:active, header .navbar .menu li a:focus {
+            color: #8dc63f; }
+
+.top-section {
+  position: relative;
+  z-index: 10;
+  background-image: url(../images/slider/slide04.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover; }
+  .top-section .main-slider {
+    position: relative;
+    z-index: 10; }
+    .top-section .main-slider img {
+      width: 100%; }
+  .top-section .category-card {
+    width: 980px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 11;
+    padding-top: 50px;
+    padding-bottom: 30px; }
+    .top-section .category-card h1, .top-section .category-card h2 {
+      color: #fff; }
+    .top-section .category-card h1 {
+      text-align: center;
+      font-size: 46px;
+      margin-bottom: 50px;
+      font-weight: 400; }
+    .top-section .category-card .card {
+      width: 475px;
+      float: left;
+      height: 210px;
+      box-shadow: 0 0 15px #000;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: inherit;
+      position: relative;
+      z-index: 10; }
+      .top-section .category-card .card:nth-of-type(1) {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        background-image: url("../images/cards/card01.jpg"); }
+      .top-section .category-card .card:nth-of-type(2) {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        background-image: url("../images/cards/card02.jpg"); }
+      .top-section .category-card .card:nth-of-type(3) {
+        margin-right: 15px;
+        margin-top: 15px;
+        background-image: url("../images/cards/card03.jpg"); }
+      .top-section .category-card .card:nth-of-type(4) {
+        margin-left: 15px;
+        margin-top: 15px;
+        background-image: url("../images/cards/card04.jpg"); }
+      .top-section .category-card .card .title {
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        width: 100%;
+        height: 65px;
+        background-color: rgba(141, 198, 63, 0.901961);
+        padding: 10px; }
+        .top-section .category-card .card .title h2 {
+          text-transform: uppercase;
+          font-weight: 700; }
+
+/*# sourceMappingURL=head.css.map */
