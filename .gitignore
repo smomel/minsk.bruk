@@ -4,7 +4,9 @@
 /bower_components/
 /node_modules/
 /src/images/cards/origin/
+/src/images/slider/origin/
 /dist/
 /dist-html/
 /grunt/
 /full-Gruntfile.js
+/full-Gruntfile-1.js

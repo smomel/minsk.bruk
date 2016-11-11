@@ -9,7 +9,7 @@ body {
 
 .container {
     width: $viewport;
-    display: block;
+	display: block;
     margin: 0 auto;
 }
 
@@ -25,10 +25,16 @@ p {
     margin-bottom: 1rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: $titleFont;
+}
+
 main {
     padding-top: 30px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $titleFont;
+footer {
+	padding: 15px 0;
+	background-color: rgba($bgColor, 0.5);
+	color: #fff;
 }

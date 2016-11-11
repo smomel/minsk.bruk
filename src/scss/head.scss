@@ -51,7 +51,7 @@ header {
     .navbar {
 	    float: left;
         width: 65%;
-        background-color: rgb(45,51,43);
+        background-color: $bgColor;
         text-align: center;
 
         .menu {
@@ -84,7 +84,7 @@ header {
 .top-section {
     position: relative;
     z-index: 10;
-	background-image: url(../images/slider/slide04.jpg);
+	background-image: url(../images/bg-top.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -129,10 +129,10 @@ header {
             width: ($viewport/2)-$cardMargin;
             float: left;
             height: 210px;
-            box-shadow: 0 0 15px #000;
+            //box-shadow: 0 0 10px #000;
             background-repeat: no-repeat;
             background-position: center;
-            background-size: inherit;
+            background-size: cover;
             position: relative;
             z-index: 10;
 
